@@ -1,0 +1,82 @@
+.btn-custom-container .btn-custom{
+    font-size: 13px;
+}
+
+.feather-18{
+    width: 18px;
+    height: 18px;
+}
+
+.link-custom{
+    color: $color-tertiary;
+    font-size: 16px;
+}
+
+.btn-custom-bg{
+    font-size: 14px;
+    color: $color-text-secondary;
+    background-color: $color-primary;
+    border-color: $color-tertiary;
+}
+
+.btn-custom-bg:hover{
+    background-color: $color-tertiary-hover;
+    color: $color-text-primary;
+}
+
+.delete-container .dlt{
+    border-color: $color-secondary-btn;
+    color: $color-text-primary;
+}
+
+.delete-container .dlt:hover{
+    background-color: $color-secondary-btn;
+    color: $color-text-secondary;
+}
+
+.edit-post-details {
+    float:right;
+}
+
+.edit-post-details a{
+    max-width: 150px;
+    margin-left: 0;
+}
+
+#edit-link{
+    display: none; 
+}
+
+.edit-icon{
+    margin-left: 5px;
+}
+
+.btn-custom-add-new{
+    background-color: $color-tertiary-hover;
+    color: $color-text-primary;
+    font-weight: 500;
+}
+
+.btn-custom-add-new:hover{
+    background-color: $color-tertiary;
+    color: $color-text-secondary;
+}
+
+.btn-custom-login{
+    background-color: $color-tertiary;
+    color:$color-text-secondary;
+}
+.btn-custom-login:hover{
+    background-color: $color-tertiary-hover;
+    color: $color-text-primary;
+}
+
+.link-custom{
+    color: $color-text-link;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.link-custom:hover{
+    text-decoration: 2px dotted $color-text-link;
+}

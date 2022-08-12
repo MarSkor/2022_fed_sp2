@@ -1,0 +1,18 @@
+
+.custom-recent-post{
+    text-decoration: none;
+    color: $color-text-primary;
+}
+
+.custom-recent-card-body{
+    background: $color-text-secondary;
+    transition: .3s ease;
+}
+
+.custom-recent-card-body:hover{
+    background-color: $color-tertiary-hover; 
+}
+
+.custom-post-card{
+    border: 1px solid $color-tertiary;
+}

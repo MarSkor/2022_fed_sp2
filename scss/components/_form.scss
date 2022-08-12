@@ -1,0 +1,46 @@
+.container-form{
+    max-width:750px;
+}
+
+.login-form{
+    max-width: 400px;
+    padding-top: 100px;
+}
+
+.container-form, .login-form{
+    margin: 0 auto;
+}
+
+.search-wrapper{
+    position: relative;
+    z-index: 999;
+}
+
+.search-results{
+    width:100%;
+    color:$color-text-primary;
+    position:absolute;
+    right:0;
+    top:100%
+}
+
+.inactive{
+    display: none;
+}
+
+.search-wrapper .search-results{
+    max-height: 280px;
+    overflow-y: auto;
+    background: $white;
+}
+
+.search-results li{
+    list-style: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.search-results li a{
+    text-decoration: none;
+}
+

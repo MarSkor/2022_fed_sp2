@@ -1,0 +1,23 @@
+{
+  "name": "wiki-style-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass styles/sass/main.scss dist/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarSkor/wiki-style-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarSkor/wiki-style-tool/issues"
+  },
+  "homepage": "https://github.com/MarSkor/wiki-style-tool#readme",
+  "dependencies": {
+    "feather-icons": "^4.29.0",
+    "sass": "^1.52.3"
+  }
+}
